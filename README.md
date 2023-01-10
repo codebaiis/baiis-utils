@@ -21,22 +21,11 @@ utlity package consisting of:
 ***
 
 <details>
-    <summary>To Do</summary>
-
-    - add necessary files to access this repo as a package in a docker container (dockerfile)
-        - https://towardsdatascience.com/create-your-custom-python-package-that-you-can-pip-install-from-your-git-repository-f90465867893
-        - https://towardsdatascience.com/use-git-submodules-to-install-a-private-custom-python-package-in-a-docker-image-dd6b89b1ee7a
-
-</details>
-
-
-***
-
-<details>
-    <summary>How To(s)</summary>  
+    <summary>Install</summary>  
 
     - install 
-        - pip   
+        - w/ pip
+            - pip install git+https://github.com/codebaiis/baiis-utils.git  
 
     - build package wheel:
         ```
@@ -44,3 +33,17 @@ utlity package consisting of:
         ```
 
 </details>
+
+***
+
+<details>
+    <summary>To Do</summary>
+
+    - add necessary files to access this repo as a package in a docker container (dockerfile)
+        - https://towardsdatascience.com/use-git-submodules-to-install-a-private-custom-python-package-in-a-docker-image-dd6b89b1ee7a
+
+</details>
+
+
+***
+
